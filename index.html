@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="icon" href="./img/logo.ico">
+    <title>Pop Schizo</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="bg-black border-b-[1px] border-[#161616] border-solid py-3">
+            <div class="container mx-auto px-4 flex justify-between items-center ">
+                <div>
+                    <h1 class="text-white text-3xl lg:text-5xl font-bold uppercase">Pop Schizo</h1>
+                </div>
+                <nav class="flex justify-between">
+                    <ul class="nav-bar font-light text-center lg:flex lg:items-center z-[1] -left-full sm:-left-2/3 md:-left-3/4 lg:z-auto h-screen w-full sm:w-2/3 sm:2/3 md:2/4 lg:static fixed lg:h-full lg:w-auto lg:py-0 py-4
+                    top-0 transition-all ease-in duration-300 text-white bg-black uppercase py-9;">
+                        <li><a class="link" href="#overview">Обзор</a></li>
+                        <li><a class="link" href="#description">Об игре</a></li>
+                        <li><a class="link" href="#contacts">Контакты</a></li>
+                        <li><a class="lg:hidden link " download href="https://drive.google.com/file/d/1TC_cP8kpGtKYcNs-wx5lhmhTq54SdA55/view">Скачать</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="btn text-2xl lg:hidden block z-[2]">
+                    <ion-icon data-btn="close" class="button-switch text-white" name="menu"></ion-icon>
+                </button>
+                <a class="hidden lg:block order-1 uppercase text-white border-[1px] border-white border-solid px-3 py-2 lg:px-5 lg:py-3 rounded font-bold"
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1TC_cP8kpGtKYcNs-wx5lhmhTq54SdA55/view">Скачать</a>
+            </div>
+        </header>
+        <main class="grow bg-[#0b0b0b]">
+            <div class="hero-section"><a id="overview"></a>
+                <div class="container mx-auto px-4 ">
+                    <div class="py-3">
+                        <img src="./img/POP-SCHIZO.png" alt="">
+                    </div>
+                    <div
+                        class="p-8 lg:p-0 border-[1px] border-white border-solid lg:border-none lg:ml-8 bg-black lg:bg-inherit">
+                        <h1 class="text-white text-1xl lg:text-2xl font-bold uppercase py-3">Доступно на Пк и Мобильных
+                            Устройствах
+                        </h1>
+                        <p class="text-white text-sm lg:text-lg py-3 ">Окунитесь в визуальную новеллу с элементами
+                            платформера.<br>Играйте в
+                            мини
+                            игры и погружайтесь в сюжет.<br> Делайте выбор и влияйте на историю.</p>
+                        <div class="flex">
+                            <a class="uppercase block text-white border-[1px] border-white border-solid px-3 py-2 lg:px-5 lg:py-3 rounded font-bold mr-5"
+                                target="_blank" href="https://www.youtube.com/embed/yhz0UvSa0_M">Смотреть трейлер</a>
+                            <a class="uppercase block text-white border-[1px] border-white border-solid px-2 py-2 lg:px-5 lg:py-3 rounded font-bold"
+                                target="_blank"
+                                href="https://drive.google.com/file/d/1TC_cP8kpGtKYcNs-wx5lhmhTq54SdA55/view">Скачать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-10"><a id="description"></a>
+                <div class="container mx-auto px-4 grid justify-items-center">
+                    <div class="mt-5 w-3/4 opacity-60  flex justify-center ">
+                        <img class="rounded-lg" src="./img/novel.png" alt="novel">
+                    </div>
+                    <div class="lg:w-2/4 w-3/4 pb-5">
+                        <h2 class="title">Новелла</h2>
+                        <p class="text">Pop Schizo имеют высококачественную графику и звуковое оформление от всем
+                            известного композитора <a class="underline decoration-solid"
+                                href="https://www.youtube.com/@losolka_beats">Losolka.beats</a>. Все вместе создает
+                            невероятную атмосферу и погружает игрока в мир Pop Schizo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" bg-[#252525]">
+                <div class="container mx-auto px-4 grid justify-items-center">
+                    <div class="grid justify-items-center">
+                        <div class="mt-5 w-3/4 opacity-60  flex justify-center ">
+                            <img class="rounded-lg" src="./img/platformer.png" alt="novel">
+                        </div>
+                        <div class="lg:w-2/4 w-3/4 pb-5">
+                            <h2 class="title">Элементы платформера</h2>
+                            <p class="text">Цель мини-игры заключается в том, чтобы дойти, неразбившись, до квартиры.
+                                Игрок должен был очень внимателен, чтобы не дать персонажу сорваться вниз.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-5 bg-[#141414]">
+                <div class="container mx-auto px-4 grid justify-items-center">
+                    <div class="grid justify-items-center">
+                        <div class="mt-5 w-3/4 opacity-60  flex justify-center ">
+                            <img class="rounded-lg" src="./img/clicker.png" alt="novel">
+                        </div>
+                        <div class="lg:w-2/4 w-3/4 pb-5">
+                            <h2 class="title">Элементы кликера</h2>
+                            <p class="text">Кликер - эта мини-игра, требует от игрока быстрого и точного нажатия на
+                                экран смартфона или компьютера. Ее цель заключается в том, чтобы вывести главного героя
+                                из депрессии.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-5 ">
+                <div class="container mx-auto px-4 grid justify-items-center">
+                    <h1 class="text-white text-3xl font-bold uppercase py-3">Скачать игру</h1>
+                    <div class="grid lg:grid-cols-2 lg:gap-10">
+                        <div class="lg:block hidden ">
+                            <h2 class="text-white text-3xl font-bold uppercase pt-3 pb-[6px] text-center">На ПК</h2>
+                            <span class="block text-white text-center">(временно недоступно)</span>
+                            <a class="block"><img src="./img/pc.png" alt="personal computer"></a>
+                        </div>
+                        <div class="">
+                            <h2 class="text-white text-3xl font-bold uppercase py-3 text-center">На Андроид</h2>
+                            <a class="block" target="_blank"
+                                href="https://drive.google.com/file/d/1TC_cP8kpGtKYcNs-wx5lhmhTq54SdA55/view"><img src="./img/phone.png" alt="telephone"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-black border-t-[1px] border-[#161616] border-solid"><a id="contacts"></a>
+            <div class="container mx-auto px-4">
+                <div class="flex  items-center justify-between">
+                    <h3 class="text-white text-xl py-5">Связаться с нами: shizogames@mail.ru</h3>
+                    <div class="flex">
+                        <a class="block w-8 mr-2" href="https://www.youtube.com/@lovxcom">
+                            <img src="./img/YT.png" alt="YouTube">
+                        </a>
+                        <a class="block w-8" href="https://vk.com/id292088794">
+                            <img src="./img/Vk.png" alt="Vk">
+                        </a>
+                    </div>
+                </div>
+                <div class="flex justify-between py-5">
+                    <h3 class="text-white text-xl font-bold">Shizo Games</h3>
+                    <span class="block text-white text-xl font-bold">Псков</span>
+                    <span class="block text-white text-xl font-bold">MMXXIII</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
