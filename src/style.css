@@ -6,10 +6,10 @@ html{
     @apply scroll-smooth;
 }
 .wrapper{
-    @apply flex flex-col h-screen w-full bg-[#0b0b0b];
+    @apply flex flex-col h-screen w-full ;
 }
 .hero-section{
-    @apply bg-[url('../img/alenpp.png')] sm:bg-[url('../img/alien.png')] from-black  bg-center bg-cover bg-no-repeat py-14 mb-10;
+    @apply bg-[url('../img/alenpp.png')] sm:bg-[url('../img/alien.png')] from-black  bg-center bg-cover bg-no-repeat py-14;
 }
 header div nav ul li{
     @apply mx-4;
@@ -18,8 +18,8 @@ header div nav ul li{
     @apply block text-2xl hover:text-[#a59e9e] leading-loose;
 }
 .title{
-    @apply text-white text-xl  lg:text-3xl font-bold uppercase py-3 border-b-[1px] border-[#fff8f8] border-solid;
+    @apply text-white text-xl  lg:text-3xl font-bold uppercase pb-2 my-2 border-b-[1px] border-[#fff8f8] border-solid;
 }
 .text{
-    @apply text-white text-base lg:text-xl font-light py-3;
+    @apply text-white text-base lg:text-xl font-light my-3;
 }
