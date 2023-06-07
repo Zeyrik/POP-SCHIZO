@@ -23,3 +23,9 @@ header div nav ul li{
 .text{
     @apply text-white text-base lg:text-xl font-light my-3;
 }
+.VK{
+    @apply w-8 h-8  bg-[url('../img/Vk.png')] bg-cover;
+}
+.YT{
+    @apply w-8 h-8 mr-2 bg-[url('../img/YT.png')] bg-cover;
+}
